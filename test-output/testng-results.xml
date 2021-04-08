@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="11" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-04T09:10:30Z" name="Suite" finished-at="2021-04-04T09:10:30Z" duration-ms="182">
+    <groups>
+      <group name="smoke">
+        <method signature="PracticeSuite.test11()[pri:0, instance:org.ktm.PracticeSuite@202b0582]" name="test11" class="org.ktm.PracticeSuite"/>
+        <method signature="PracticeSuite1.test222()[pri:0, instance:org.ktm.PracticeSuite1@235ecd9f]" name="test222" class="org.ktm.PracticeSuite1"/>
+        <method signature="Priority.test1()[pri:0, instance:org.ktm.Priority@3b0fe47a]" name="test1" class="org.ktm.Priority"/>
+        <method signature="Priority.test4()[pri:0, instance:org.ktm.Priority@3b0fe47a]" name="test4" class="org.ktm.Priority"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="PracticeSuite.test33()[pri:0, instance:org.ktm.PracticeSuite@202b0582]" name="test33" class="org.ktm.PracticeSuite"/>
+        <method signature="PracticeSuite1.test111()[pri:0, instance:org.ktm.PracticeSuite1@235ecd9f]" name="test111" class="org.ktm.PracticeSuite1"/>
+        <method signature="Priority.test3()[pri:0, instance:org.ktm.Priority@3b0fe47a]" name="test3" class="org.ktm.Priority"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-04-04T09:10:30Z" name="Test" finished-at="2021-04-04T09:10:30Z" duration-ms="182">
+      <class name="org.ktm.PracticeSuite">
+        <test-method signature="test11()[pri:0, instance:org.ktm.PracticeSuite@202b0582]" started-at="2021-04-04T09:10:30Z" name="test11" finished-at="2021-04-04T09:10:30Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method signature="test33()[pri:0, instance:org.ktm.PracticeSuite@202b0582]" started-at="2021-04-04T09:10:30Z" name="test33" finished-at="2021-04-04T09:10:30Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test33 -->
+      </class> <!-- org.ktm.PracticeSuite -->
+      <class name="org.ktm.PracticeSuite1">
+        <test-method signature="test111()[pri:0, instance:org.ktm.PracticeSuite1@235ecd9f]" started-at="2021-04-04T09:10:30Z" name="test111" finished-at="2021-04-04T09:10:30Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test111 -->
+        <test-method signature="test222()[pri:0, instance:org.ktm.PracticeSuite1@235ecd9f]" started-at="2021-04-04T09:10:30Z" name="test222" finished-at="2021-04-04T09:10:30Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test222 -->
+      </class> <!-- org.ktm.PracticeSuite1 -->
+      <class name="org.ktm.Priority">
+        <test-method signature="test1()[pri:0, instance:org.ktm.Priority@3b0fe47a]" started-at="2021-04-04T09:10:30Z" name="test1" finished-at="2021-04-04T09:10:30Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test3()[pri:0, instance:org.ktm.Priority@3b0fe47a]" started-at="2021-04-04T09:10:30Z" name="test3" finished-at="2021-04-04T09:10:30Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:org.ktm.Priority@3b0fe47a]" started-at="2021-04-04T09:10:30Z" name="test4" finished-at="2021-04-04T09:10:30Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- org.ktm.Priority -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
